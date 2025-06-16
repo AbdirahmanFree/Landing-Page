@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Roboto';
+    font-family: "Roboto", 'sans-serif';
 }
 .header{
     display: flex;
@@ -10,8 +10,11 @@ body{
 }
 .nav-bar h2 {
     font-size: 24px;
+    color: #F9FAF8;
 }
 
-.nav-bar {
+.nav-bar{
     display: flex;
+    
 }
+
