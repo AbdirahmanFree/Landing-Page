@@ -18,3 +18,10 @@ body{
     
 }
 
+.nav-bar ul {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    color: #E5E7EB;
+}
+
