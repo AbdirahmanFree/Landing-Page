@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding: 5px 150px;
     
 }
 .nav-bar h2 {
@@ -23,5 +24,6 @@ body{
     list-style: none;
     display: flex;
     color: #E5E7EB;
+    gap: 10px;
 }
 
