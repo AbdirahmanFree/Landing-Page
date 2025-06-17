@@ -64,7 +64,7 @@ body{
 
 }
 
-.description button {
+button {
     margin-top: 10px;
     padding: 5px 30px;
     border-radius: 5px;
@@ -157,4 +157,35 @@ body{
 /*quote section CSS*/
 
 /* Call to Action section */
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.call-to-action button {
+    height: 26px;
+    border: #F9FAF8 1px solid;
+    align-self: flex-end;
+    margin-bottom: 15px;
+    
+}
+
+.text {
+    color: #F9FAF8;
+}
+
+
 
