@@ -74,3 +74,21 @@ body{
     font-weight: 900;
 }
 /* Header section CSS */
+
+/* Body section CSS */
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.info-graphics {
+    display: flex;
+}
+.info-graphics img {
+    width: 170;
+    border: #3882F6 1px solid;
+    height: 200px;
+}
