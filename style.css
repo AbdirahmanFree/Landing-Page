@@ -2,11 +2,14 @@ body{
     margin: 0;
     font-family: "Roboto", 'sans-serif';
 }
+/* Header section CSS */
 .header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 5px 150px;
+    padding: 5px 200px;
+    max-height: 526px;
+    flex: 0 0 auto;
     
 }
 .nav-bar h2 {
@@ -32,6 +35,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 120px 0px;
 }
 
 .header-information .description {
@@ -41,8 +45,10 @@ body{
 }
 
 .header-information img {
-    width: 480px;
-    height: 200px;
+    width: 500px;
+    height: 236px;
+    flex: 0 0 auto;
+    margin-left: 10px;
 }
 
 .description h1 {
@@ -58,3 +64,13 @@ body{
 
 }
 
+.description button {
+    margin-top: 10px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+/* Header section CSS */
