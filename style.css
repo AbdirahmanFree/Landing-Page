@@ -25,5 +25,36 @@ body{
     display: flex;
     color: #E5E7EB;
     gap: 10px;
+    font-size: 18px;
+}
+
+.header-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-information .description {
+    width: 380px;
+    flex: 0 0 auto;
+    
+}
+
+.header-information img {
+    width: 480px;
+    height: 200px;
+}
+
+.description h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.description p {
+    margin: 0;
+    color: #E5E7EB;
+
 }
 
