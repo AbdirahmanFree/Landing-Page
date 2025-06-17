@@ -189,5 +189,24 @@ button {
 
 /* Call to Action section */
 
+/* footer section */
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer section */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+
+}
+
 
 
