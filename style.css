@@ -117,8 +117,41 @@ body{
 
 .info-graphics p {
     font-size: 18px;
+    color: #1F2937;
 }
 
 
 /* Body section CSS */
 
+/*quote section CSS*/
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 35px 0px;
+}
+
+.quote {
+ display: flex;
+ flex-direction: column;
+ width: 800px;
+ flex: 0 0 auto;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote h3 {
+    margin-left: auto;
+    margin-top: 0px;
+}
+
+/*quote section CSS*/
